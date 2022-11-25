@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Sobolive</title>
+	<link>https://sobolive.com/blog/</link>
+	<description>Recent content in blog on Sobolive</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>pt-br</language>
+	<lastBuildDate>Thu, 01 Sep 2022 20:11:11 -0500</lastBuildDate>
+    
+        <atom:link href="https://sobolive.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Recamo do Fiminino</title>
+		<link>https://sobolive.com/blog/recamo/</link>
+		<pubDate>Thu, 01 Sep 2016 20:11:11 -0500</pubDate>
+		
+		<guid>https://sobolive.com/blog/recamo/</guid>
+		<description>&lt;blockquote&gt;
+&lt;p&gt;Trouxe bordados que referem a questão da mulher, com algumas experiências que geralmente acontecem com as mesmas. A cor presente é o vermelho. Fiz através de uma pesquisa sobre algumas simbologias que ele tem, sobre a força do vermelho e a relação dele com a mulher. Para mim como artista, sempre trago essa cor como um representativo da mulher.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure &gt;&lt;a target=&#34;_blank&#34; href=&#34;https://sobolive.com/&#34;&gt;&lt;b&gt;um titulo&lt;/b&gt;&lt;/a&gt;
+
+	&lt;a href=&#34;https://sobolive.com/images/blog/recamo/01baixa.jpg&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://sobolive.com/images/blog/recamo/01baixa_baja.jpg&#34; title=&#34;olha, to aqui&#34; alt=&#34;recamo do fiminino um&#34;loading=&#34;lazy&#34;&gt;
+	&lt;/a&gt;&lt;figcaption&gt;um footer&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure &gt;
+
+	&lt;a href=&#34;https://sobolive.com/images/blog/recamo/02baixa.jpg&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://sobolive.com/images/blog/recamo/02baixa_baja.jpg&#34;loading=&#34;lazy&#34;&gt;
+	&lt;/a&gt;&lt;/figure&gt;
+
+&lt;figure &gt;
+
+	&lt;a href=&#34;https://sobolive.com/images/blog/recamo/03baixa.jpg&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://sobolive.com/images/blog/recamo/03baixa_baja.jpg&#34;loading=&#34;lazy&#34;&gt;
+	&lt;/a&gt;&lt;/figure&gt;
+
+&lt;figure &gt;
+
+	&lt;a href=&#34;https://sobolive.com/images/blog/recamo/04baixa.jpg&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://sobolive.com/images/blog/recamo/04baixa_baja.jpg&#34;loading=&#34;lazy&#34;&gt;
+	&lt;/a&gt;&lt;/figure&gt;
+
+&lt;figure &gt;
+
+	&lt;a href=&#34;https://sobolive.com/images/blog/recamo/05baixa.jpg&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://sobolive.com/images/blog/recamo/05baixa_baja.jpg&#34;loading=&#34;lazy&#34;&gt;
+	&lt;/a&gt;&lt;/figure&gt;
+
+</description>
+	</item>
+	
+	</channel>
+</rss>

@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Sobolive</title>
+	<link>https://sobolive.com/categories/</link>
+	<description>Recent content in Categories on Sobolive</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>pt-br</language>
+    
+        <atom:link href="https://sobolive.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	</channel>
+</rss>

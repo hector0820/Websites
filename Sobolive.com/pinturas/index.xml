@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Sobolive</title>
+	<link>https://sobolive.com/pinturas/</link>
+	<description>Recent content in Pinturas on Sobolive</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>pt-br</language>
+	<lastBuildDate>Thu, 01 Sep 2022 20:11:11 -0500</lastBuildDate>
+    
+        <atom:link href="https://sobolive.com/pinturas/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	</channel>
+</rss>

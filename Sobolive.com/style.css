@@ -1,0 +1,305 @@
+:root {
+  --color-one: black;
+  --color-two: #767676;
+  --color-three: #CCCCCC;
+}
+
+/* = + = + = + FONTS + = + = + =  */
+
+@font-face {
+    font-family: 'Another Typewriter';
+	src: url("../fonts/atwriter.ttf");
+	}
+@font-face {
+    font-family: 'CFOldLithography';
+	src: url("../fonts/CFOldLithography-Regular.ttf");
+	}
+@font-face {
+    font-family: '1942';
+	src: url("../fonts/1942.ttf");
+	}
+@font-face {
+    font-family: 'typewcond';
+	src: url("../fonts/typewcond_demi.otf");
+	}
+@font-face {
+    font-family: 'Momot';
+	src: url("../fonts/momot.ttf");
+	}
+
+/* = + = + = + BODY + = + = + =  */
+
+body {
+	width: 85%;
+	margin: auto;
+	color: #ccc ;
+}
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+img {
+	max-width: 100% ;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #767676;
+	font-family: "Another Typewriter";
+	font-weight: 100;
+}
+.title-single {
+	display: inline;
+}
+header h1 {
+	font-family: "Another Typewriter";
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: left ;
+	margin-bottom: .4rem;
+	color: black;
+}
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+/* = + = + = + NAV + = + = + =  */
+
+nav {
+	margin: 3rem auto 2rem auto;
+	display: flex;
+	justify-content: center;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+ 	margin-top: 0;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 .5rem;
+}
+nav ul li a {
+	text-decoration: none;
+	font-family: "1942";
+	padding: 5px;
+	color: #767676;
+}
+nav ul li a:hover {
+	background: #f7f7f7;
+	padding: 4px;
+	border: 1px solid #DEDDDD;
+	border-radius: 6px;
+}
+
+/* = + = + = + Article + = + = + =  */
+
+p {
+	font-family: "typewcond";
+	font-weight: 100;
+	text-align: justify;
+	font-size: 1.3rem;
+	color: #767676;
+	line-height: 2rem;
+}
+blockquote {
+	width: 100%;
+	margin: auto;
+	border-top: 2px solid #767676;
+	border-bottom: 2px solid #767676;
+}
+blockquote p{
+	font-family: "Momot";
+	font-weight: 100;
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.3rem;
+	padding: 0.25rem 1rem;
+	color: black;
+}
+figure {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 3.7rem;
+	margin-bottom: 2.7rem;
+
+}
+figure a {
+	text-decoration: none;
+}
+figure b {
+	text-align: center;
+	display: block;
+	color: black;
+	font-size: 1.4rem;
+	margin-bottom: .7rem;
+	font-family: "1942"
+}
+figure img {
+	max-width: 85%;
+	border: .3rem solid white;
+	border-radius: .8rem;
+}
+figure figcaption {
+	text-align: center;
+	font-family: "typewcond";
+	margin-top: -5px;
+	font-size: 1rem;
+	color: #586069;
+}
+
+/* = + = + = + LIST-INFO + = + = + =  */
+
+.header-info {
+	font-family: "Another Typewriter";
+	font-weight: 100;
+	margin-top: -1rem;
+	margin-bottom: 1.4rem;
+}
+.list {
+	padding: 0;
+	margin: 0;
+}
+.list img {
+	width: 55%;
+}
+.list time {
+	font-size: 0.8rem;
+	display: block;
+}
+.list li{
+	text-align: center;
+	list-style-type: none;
+	width: 100%;
+}
+.list h2 {
+	font-family: "1942";
+	font-weight: 100;
+}
+
+.list a {
+	text-decoration: none;
+	color: black;
+}
+
+.info-title {
+	font-size: 1.7rem;
+}
+
+.info-date,
+.info-author,
+.info-read {
+	font-size: 0.8rem;
+	color: #738491
+}
+
+.list-home img {
+	width: 85%;
+}
+.list-home time {
+	font-size: 0.8rem;
+	font-family: "Another Typewriter";
+}
+
+/* = + = + = + TAGLIST + = + = + =  */
+
+.taglist {
+	display: inline;
+	margin-left: 0.5rem;
+	text-align: center ;
+	clear: both ;
+}
+.taglist a{
+	font-size: 0.8rem;
+	text-decoration: none;
+	color: #767676;
+        background: #F7F7F7;
+        border: 1px solid #DEDDDD;
+        border-radius: 3px;
+        padding: 1px;
+}
+
+/* = + = + = + NEXTPREV + = + = + =  */
+
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+#link-site {
+	display: block;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+#link-site h2 {
+	margin-bottom: 0.8rem;
+}
+#link-site a {
+	font-family: "CFOldLithography";
+	font-weight: 100;
+	text-decoration: none;
+	color: black;
+}
+#link-site a:hover {
+	padding: 5px;
+	background: none;
+	border: none;
+	border-radius: none;
+}
+
+/* = + = + = + LIST-GRID + = + = + =  */
+
+.galery {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0.5rem;
+}
+.grid {
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+  text-align: center;
+}
+.grid h2 {
+	display: inline-block;
+	margin-bottom: 0;
+	width: 100%;
+}
+.grid img {
+	width: 300px;
+	height: 180px;
+}
+.grid a {
+	text-decoration: none;
+	color: black;
+	font-family: "CFOldLithography";
+}
+
+/* = + = + = + MEDIAQUERIES+ = + = + =  */
+
+@media screen and (max-width: 720px) {
+	.galery {
+		grid-template-columns: auto;
+	}
+	.grid {
+		width: 90%;
+	}
+	.grid img {
+		width: 100%;
+		height: auto;
+	}
+}
