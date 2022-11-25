@@ -1,0 +1,112 @@
+.contatopg{
+	display: grid;
+	grid-template-areas: "cnta_ttulo" "cnta_iconos" "cnta_formularios";
+	}
+.contatopg__titulo{
+	grid-area: cnta_ttulo; 
+	}
+.contatopg__titulo-h1{
+	margin: .4rem;
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: 'Caveat', cursive;
+	}
+.contatopg__titulo-p{
+	text-align: justify;
+	font-size: 1.2rem;
+	}
+.contatopg__iconos{
+	grid-area: cnta_iconos; 
+	display: grid;
+	margin: 2rem 0;
+	padding: 1.5rem 0;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"wh_ ml_";
+	border-top: 2px solid var(--color-secundario);
+	border-bottom: 2px solid var(--color-secundario);
+	}
+.contatopg__iconos-ml{
+	font-size: 3.5rem;
+	color: var(--color-terciario);
+	display: block;
+	grid-area: ml_;
+	}
+.contatopg__iconos-wh{
+	font-size: 3.5rem;
+	color: var(--color-terciario);
+	display: block;
+	grid-area: wh_;
+	}
+._contatogptext{
+	display: none;
+	}
+.contatopg__formulario{
+	grid-area: cnta_formularios; 
+	padding: .4rem;
+	border: 3px inset black;
+	border-radius: 7px;
+	margin-bottom: 2rem;
+	}
+.contatopg__formulario-h2{
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Caveat', cursive;
+	}
+.contatopg__formulario-texto-i{
+	color: var(--color-terciario);
+	border: 3px inset gray;
+	background-color: var(--color-secundario);
+	border-radius: 4px;
+	width: 100%;
+}
+._mensajede{
+	resize: none;
+	height: 13vh;
+	}
+#_enviar{
+	width: 15vw;
+	padding: .3rem 0;
+	text-align: center;
+	color: var(--color-terciario);
+	background-color: var(--color-fondo);
+	border-color: var(--color-principal);
+	border-radius: 7px;
+	font-weight: bolder;
+}
+@media (min-width: 950px){
+	.contatopg{
+		grid-template-areas: "cnta_ttulo cnta_ttulo" "cnta_formularios cnta_iconos";
+		}
+	.contatopg__formulario{
+		width: 90%;
+		height: 60vh;
+		margin-top: .9rem;
+		margin-right: auto;
+	}
+	.contatopg__formulario-texto{
+		width: 96%;
+		margin: auto;
+	}
+	._mensajede{
+		height: 23vh;
+		}
+	.contatopg__formulario-texto-boton{
+		text-align: center;
+		margin-top: .7rem;
+	}
+	.contatopg__iconos{
+		margin: 0 0 0 4rem; 
+		padding: 0; 
+		width: 90%;
+		text-align: left;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 2fr;
+		grid-template-areas:"." "ml_" "wh_" ".";
+		border: 0;
+		}
+	._contatogpicono,
+	._contatogptext{
+		display: inline-block;
+		font-size: 1.8rem;
+		}
