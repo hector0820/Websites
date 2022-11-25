@@ -1,0 +1,66 @@
+.contato{
+	margin-top: 2rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-areas:"cn_tt""cn_ci""cn_ct""cn_ii""cn_it";
+}
+.contato__titulo{
+	text-align: center;
+	grid-area: cn_tt;
+}
+.contato__ci{
+	text-align: center;
+	grid-area: cn_ci;
+}
+.contato__ct{
+	text-align: center;
+	grid-area: cn_ct;
+}
+.contato__ii{
+	text-align: center;
+	grid-area: cn_ii;
+}
+.contato__it{
+	text-align: center;
+	grid-area: cn_it;
+}
+.contato__icono{
+	padding: 0 1.166rem;
+	background-color: rgba(255,255,255,.95);
+	border-radius: 7px;
+	font-size: 6.33rem;
+}
+.contato__ref{
+	display: inline-block;
+	padding: 0 1rem;
+	margin-bottom: 1.2rem;
+	font-size: 1.1rem;
+	background-color: var(--color-dois);
+}
+.contato-h1{
+	display: inline-block;
+	background-color: var(--color-um);
+	color: var(--color-dois);
+	margin-bottom: .7rem;
+	font-size: 3rem;
+	
+}
+.chido{
+	padding: 0 1.67rem;
+}
+@media only screen and (min-width: 720px) {
+	.contato{
+		margin-top: 8rem;
+		display: grid;
+		grid-template-areas:"cn_tt cn_tt"
+		    		    "cn_ci cn_ii""cn_ct cn_it";
+	}
+	.contato__icono{
+		padding: 0 1.399rem;
+		font-size: 7.56rem;
+	}
+	.chido{
+		padding: 0 2.004rem;
+	}
+}
+

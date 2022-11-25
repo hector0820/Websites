@@ -1,0 +1,173 @@
+/* Fonts */
+@font-face{font-family:"Corbel";src:url(../fonts/corbel.ttf)format("truetype")}
+@font-face{font-family:"Albertsthal";src:url(../fonts/Albertsthal-Typewriter.ttf)format("truetype")}
+/* Limpiando configuraciones del explorador */
+:root{
+	font-size: 10px;
+	--color-um: #630F09;
+	--color-dois: white;
+}
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	list-style: none;
+	font-family: "Albertsthal";
+	color: var(--color-um);
+}
+/* Inicio de las configuraciones */
+/* Normal */
+
+body{
+	background-image: url(../img/fondo/vertical.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+h1{
+	font-weight: normal;
+}
+.menubar{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	background-color: white;
+	padding-bottom: .7rem;
+	transform: scale(1,0);
+	transform-origin: top;
+	transition: transform 450ms ease-in-out 200ms;
+}
+#menubar__box{
+	display:none;
+}
+#barra__hamburguesa,
+#menubar__box-ig{
+	position: absolute;
+	font-size: 2.4rem;
+	top: .6rem;
+	left:.8rem;
+	display: inline;
+	z-index:100;
+	transform: rotate(0deg);
+	transition: transform 550ms ease-in-out 200ms;
+}
+#menubar__box-ig{
+	opacity:0;
+	z-index:200;
+}
+.menubar__logo{
+	padding-top: 3rem;
+	text-align:center;
+}
+.menubar__logo-a{
+	font-size: 1.9rem;
+	display: inline-block;
+}
+.menubar__foto{
+	margin: 1rem 0;
+	text-align: center;
+}
+.menubar__foto-img{
+	width: 68vw;
+	height: 44vh;
+	margin-top: 1rem;
+	border-radius: 7px;
+}
+.menubar__navegacion{
+	margin: 1.9rem;
+	margin-left: 7.7vw;
+	font-size: 2rem;
+}
+.menubar__navegacion-b{
+	font-weight: normal;
+}
+#menubar__box:checked ~ .menubar{
+	transform: scale(1,1);
+	transform-origin: top;
+	transition: transform 550ms ease-in-out 200ms;
+}
+#menubar__box:checked ~ #barra__hamburguesa{
+	transform: rotate(90deg);
+	transition: transform 550ms ease-in-out 200ms;
+}
+.menubar__logo h1:hover,
+.seleccionado{
+	background-color: var(--color-um);
+	color: var(--color-dois);
+}
+.menubar__navegacion-b:hover{
+	background-color: var(--color-um);
+	color: var(--color-dois);
+}
+#overflowTest {
+	margin:auto;
+	margin-top: 5rem;
+	width: 84vw;
+	height: 85vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+@media only screen and (min-width: 720px) {
+	body{
+		background-image: url(../img/fondo/horizontal.jpg);
+		background-repeat: no-repeat;
+	}
+	#barra__hamburguesa,
+	#menubar__box-ig,
+	.menubar__foto,
+	.menubar{
+		display: none;
+	}
+	.menubar{
+		background-color: unset;
+		padding: 0;
+		width: 100%;
+		display:grid;
+		transform:none;
+		transition:none;
+		grid-template-areas: "menulogo menusobolive menugaleria menucontato";
+	}
+	.menubar__logo{
+		text-align: left;
+		width: 60vw;
+		padding: 0;
+		margin-left: 1.3rem;
+		grid-area: menulogo;
+	}
+	.menubar__navegacion{
+		margin:0;
+	}
+	.menubar__navegacion-a{
+		font-size: 2.3rem;
+	}
+	.menubar__navegacion-b{
+		display:none;
+	}
+	.Sobolive{
+		margin:auto;
+		text-align: center;
+		grid-area:menusobolive;
+	}
+	.Galeria{
+		margin:auto;
+		text-align: center;
+		grid-area:menugaleria;
+	}
+	.Contato{
+		margin:auto;
+		text-align: center;
+		grid-area:menucontato;
+	}
+}
+@media only screen and (min-width: 950px) {
+	.menubar{
+		padding: .7rem 0;
+	}
+	.menubar__navegacion-b{
+		display:inline-block;
+	}
+	.menubar__navegacion-a{
+		font-size: 1.7rem;
+	}
+}

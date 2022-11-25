@@ -1,0 +1,67 @@
+	.andreasobreira{
+		display: grid;
+		grid-gap: 0.7rem;
+		grid-template-areas: "titulo" "foto" "texto";
+	}
+	.andreasobreira__titulo{
+		grid-area: titulo;
+	}
+	.andreasobreira__foto{
+		grid-area: foto;
+		text-align: center;
+	}
+	.andreasobreira__texto{
+		grid-area: texto;
+		border-radius: 7px;
+		text-align: justify;
+		background-color: white;
+	}
+	.andreasobreira__titulo-h1{
+		display: inline-block;
+		font-size: 3rem;
+		background-color: white;
+	}
+	.andreasobreira__texto p{
+		display:block;
+		margin: 3vh;
+		font-size:2rem; 
+		font-family:"Corbel";
+		overflow-y: auto;
+	}
+	.andreasobreira__foto-img{
+		width: 84vw;
+		height: 65vh;
+		border-radius: 7px;
+	}
+	::-webkit-scrollbar {
+	width: 1px;
+	}
+@media only screen and (min-width: 720px) {
+	.andreasobreira{
+		margin: 3rem 3rem 0;
+		grid-template-areas: "titulo titulo" "foto texto"; 
+	}
+	.andreasobreira__foto-img{
+		width: 30vw;
+		height: 60vh;
+	}
+	.andreasobreira__texto{
+		height: 60vh;
+	}
+	.andreasobreira__texto p{
+		font-size: 1.7rem;
+		height: 54vh;
+	}
+}
+@media only screen and (min-width: 990px) {
+	.andreasobreira{
+		margin: 5rem 5rem 0;
+	}
+	.andreasobreira__foto-img{
+		width: 24vw;
+	}
+	.andreasobreira__texto p{
+		font-size: 2rem;
+	}
+}
+
